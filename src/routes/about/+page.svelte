@@ -4,6 +4,6 @@
 	let { data } = $props();
 </script>
 
-<p>page, $page.data: {JSON.stringify(data)}</p>
+<p>page, data: {JSON.stringify(data)}</p>
 
 <p>page, $page.data: {JSON.stringify($page.data)}</p>
